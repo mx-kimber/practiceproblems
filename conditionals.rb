@@ -99,11 +99,11 @@
 # number = 66
 # if number > 80
 #   p 5
-# elsif number > 60 && number < 80
+# elsif number > 60
 #   p 4
-# elsif number > 40 && number < 60
+# elsif number > 40
 #   p 3
-# elsif number > 20 && number < 40
+# elsif number > 20
 #   p 2
 # else
 #   p 1
