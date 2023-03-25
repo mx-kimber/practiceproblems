@@ -30,11 +30,17 @@
 
 # 5. Write a times loop that prints the number 9000 ten times.
 
-10.times do
-  p 9000
-end
+# 10.times do
+#   p 9000
+# end
 
 # 6. Write a times loop that prints the numbers 100 through 90.
+
+number = 100
+11.times do
+  p number
+  number = number - 1
+end
 
 # 7. Write a times loop that prints the numbers 50 to 70.
 
