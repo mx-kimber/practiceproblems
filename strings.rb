@@ -28,13 +28,20 @@
 
 # 5. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string interpolation (the #{} operator).
 
-color1 = "green"
-color2 = "purple"
-color3 = "blue"
+# color1 = "green"
+# color2 = "purple"
+# color3 = "blue"
 
-p "My favorte color is #{color1}, but I also love #{color2} and #{color3}."
+# p "My favorte color is #{color1}, but I also love #{color2} and #{color3}."
 
 # 6. Write a program that asks the user to enter a name. If the name is not "Santa", print "You're not Santa."
+
+puts "Please enter a name"
+name = gets.chomp.downcase
+if name != "santa"
+  p "You're not Santa."
+end
+
 
 # 7. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string concatenation (the + operator).
 
