@@ -21,11 +21,15 @@
 
 # 4. Create an array to store 1 number. Then add three more numbers to the array and print the array on one line.
 
-numbers =[4]
-numbers << 5 << 7 << 34
-p numbers
+# numbers =[4]
+# numbers << 5 << 7 << 34
+# p numbers
 
 # 5. Create an array to store 3 strings with lower case letters. Then change the third string to have all capital letters and print the array on one line.
+
+strings_array = ["painting", "walking", "swimming"]
+strings_array[2] = strings_array[2].upcase
+p strings_array
 
 # 6. Create an array to store 3 names. Then print out each name on separate lines with a while loop.
 
