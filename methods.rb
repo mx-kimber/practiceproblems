@@ -34,14 +34,18 @@
 
 # 6. Write a program that asks the user to enter two words, then prints both words on the same line in all capital letters.
 
-puts "Please enter a word."
-word1 = gets.chomp.upcase
-puts "Please enter another word."
-word2 = gets.chomp.upcase
-puts word1 + " " + word2
+# puts "Please enter a word."
+# word1 = gets.chomp.upcase
+# puts "Please enter another word."
+# word2 = gets.chomp.upcase
+# puts word1 + " " + word2
 
 
 # 7. Write a program that asks the user to enter a word, then prints the number of letters in the word.
+
+puts "Please enter any word."
+word = gets.chomp
+p word.chars.count
 
 # 8. Write a program that asks the user to enter a number, then prints "That's a negative number" if the number is less than 0.
 
