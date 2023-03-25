@@ -1,12 +1,16 @@
 # 1. Write a times loop to print the numbers 1 through 10.
 
-number = 1
-10.times do
-   p number
-   number = number + 1
-end
+# number = 1
+# 10.times do
+#    p number
+#    number = number + 1
+# end
 
 # 2. Write a times loop that prints the word "hello" 5 times.
+
+5.times do
+  p "hello"
+end
 
 # 3. Write a times loop that prints the numbers 10 through 1.
 
