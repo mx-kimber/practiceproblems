@@ -44,13 +44,17 @@
 
 # 7. Write a times loop that prints the numbers 50 to 70.
 
-number = 50
-2.times do
-  p number
-  number = number + 20
-end
+# number = 50
+# 2.times do
+#   p number
+#   number = number + 20
+# end
 
 # 8. Write a times loop that prints the phrase "Around the world" 144 times.
+
+144.times do
+  p "Around the world"
+end
 
 # 9. Write a times loop that prints the numbers 5 through 0.
 
