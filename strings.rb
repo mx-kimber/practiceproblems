@@ -68,9 +68,9 @@
 
 # 10. Write a program that uses variables to store the names of three cities, then prints out a sentence using that information with string concatenation (the + operator).
 
-city1 = "Chicago"
-city2 = "New York"
-city3 = "Seattle"
-puts "I have family in " + city1 + ", " + city2 + ", and " + city3 + "."
+# city1 = "Chicago"
+# city2 = "New York"
+# city3 = "Seattle"
+# puts "I have family in " + city1 + ", " + city2 + ", and " + city3 + "."
 
 # SOLUTIONS: https://gist.github.com/peterxjang/79ba5acc912a86cce2a18c2f14b1c712
