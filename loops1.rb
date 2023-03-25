@@ -8,11 +8,17 @@
 
 # 2. Write a times loop that prints the word "hello" 5 times.
 
-5.times do
-  p "hello"
-end
+# 5.times do
+#   p "hello"
+# end
 
 # 3. Write a times loop that prints the numbers 10 through 1.
+
+number = 10
+10.times do
+  p number
+  number = number -1
+end
 
 # 4. Write a times loop that prints the numbers 0 through 15, increasing by 5 each time.
 
