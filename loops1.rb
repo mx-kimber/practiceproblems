@@ -58,13 +58,19 @@
 
 # 9. Write a times loop that prints the numbers 5 through 0.
 
-number = 5
-6.times do
-  p number
-  number = number - 1
-end
+# number = 5
+# 6.times do
+#   p number
+#   number = number - 1
+# end
 
 # 10. Write a times loop that prints the even numbers from 2 to 10.
+
+number = 2
+ 5.times do
+  p number
+  number = number + 2
+ end
 
 
 # SOLUTIONS: https://gist.github.com/peterxjang/716fc92bd11b759a5f6d5348126483e6
