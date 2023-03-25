@@ -22,13 +22,17 @@
 
 # 4. Write a times loop that prints the numbers 0 through 15, increasing by 5 each time.
 
-number = 0
-4.times do
-  p number
-  number = number + 5
-end
+# number = 0
+# 4.times do
+#   p number
+#   number = number + 5
+# end
 
 # 5. Write a times loop that prints the number 9000 ten times.
+
+10.times do
+  p 9000
+end
 
 # 6. Write a times loop that prints the numbers 100 through 90.
 
