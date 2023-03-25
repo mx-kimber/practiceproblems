@@ -20,13 +20,19 @@
 
 # 4. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string concatenation (the + operator).
 
-color1 = "red"
+# color1 = "red"
+# color2 = "purple"
+# color3 = "blue"
+
+# p "The colors used in this painting are " + color1 + ", " + color2 + ", and" + color3 + "."
+
+# 5. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string interpolation (the #{} operator).
+
+color1 = "green"
 color2 = "purple"
 color3 = "blue"
 
-p "The colors used in this painting are " + color1 + ", " + color2 + ", and" + color3 + "."
-
-# 5. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string interpolation (the #{} operator).
+p "My favorte color is #{color1}, but I also love #{color2} and #{color3}."
 
 # 6. Write a program that asks the user to enter a name. If the name is not "Santa", print "You're not Santa."
 
