@@ -12,14 +12,18 @@
 
 # 3. Create an array to store 5 numbers. Then print out each number on separate lines with a while loop.
 
-numbers = [1, 5, 3, 9, 44]
-index = 0
-while index < numbers.length
-  p numbers[index]
-  index = index + 1
-end
+# numbers = [1, 5, 3, 9, 44]
+# index = 0
+# while index < numbers.length
+#   p numbers[index]
+#   index = index + 1
+# end
 
 # 4. Create an array to store 1 number. Then add three more numbers to the array and print the array on one line.
+
+numbers =[4]
+numbers << 5 << 7 << 34
+p numbers
 
 # 5. Create an array to store 3 strings with lower case letters. Then change the third string to have all capital letters and print the array on one line.
 
