@@ -61,14 +61,14 @@
 # number1 = gets.chomp.to_i
 # puts "Please enter another number."
 # number2 = gets.chomp.to_i
-# puts number1 * number2
+# p number1 * number2
 
 # 10. Write a program that asks the user to enter a word, then prints "That's a long word" if the word has more than 5 letters.
 
-puts "Please enter a word."
-word = gets.chomp
-if word.chars.count > 5
-puts "That's a long word."
-end
+# puts "Please enter a word."
+# word = gets.chomp
+# if word.chars.count > 5
+#   puts "That's a long word."
+# end
 
 # SOLUTIONS: https://gist.github.com/peterxjang/1539a3ad79728ba4fb68dd8d07279c29
