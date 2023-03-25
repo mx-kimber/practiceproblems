@@ -52,11 +52,17 @@
 
 # 8. Write a times loop that prints the phrase "Around the world" 144 times.
 
-144.times do
-  p "Around the world"
-end
+# 144.times do
+#   p "Around the world"
+# end
 
 # 9. Write a times loop that prints the numbers 5 through 0.
+
+number = 5
+6.times do
+  p number
+  number = number - 1
+end
 
 # 10. Write a times loop that prints the even numbers from 2 to 10.
 
