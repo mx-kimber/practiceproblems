@@ -35,10 +35,10 @@
 
 # 6. Write a function that takes in three strings and returns a string that combines all three strings with spaces in between. Then run the function and print the result.
 
-def combines(string1, string2, string3)
-  return string1 + " " + string2 + " " + string3
-end
-p combines("rubber", "ducky", "life")
+# def combines(string1, string2, string3)
+#   return string1 + " " + string2 + " " + string3
+# end
+# p combines("rubber", "ducky", "life")
 
 #  note to self: answer is with #{ } which will seperate the words instead of using cocantonation.
 
@@ -47,6 +47,11 @@ p combines("rubber", "ducky", "life")
 # end
 
 # 7. Write a function that takes in a number and returns the number as a string. Then run the function and print the result.
+
+def make_string(string)
+  return string.to_s
+end
+p make_string(3)
 
 # 8. Write a function that takes in a string and returns the string repeated 5 times. Then run the function and print the result.
 
