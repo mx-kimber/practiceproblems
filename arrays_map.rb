@@ -93,10 +93,13 @@
 
 strings = ["atta", "big", "cat"]
 first_letter = [ ]
-p strings[0][0]
-# strings.each do | letter |
-# first_letter <<
-# end
+# p strings[0][0]
+index = 0
+strings.each do
+  first_letter << strings[index][0]
+  index += 1
+end
+p first_letter
 
 # 9.  Start with an array of hashes and create a new array of number values from each hash's :age key times 2.
 #     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [54, 32].
