@@ -50,16 +50,27 @@
 
 # 5. Start with an array of numbers and create a new array with each number plus 7
 
-numbers = [3, 5, 7, 4]
+# numbers = [3, 5, 7, 4]
+# new_array = [ ]
+# index = 0
+# while index < numbers.length
+#   new_array << numbers[index] + 7
+# index = index + 1
+# end
+# p new_array
+
+# 6. Start with an array of strings and create a new array with only the strings shorter than 4 letters.
+
+strings = ["sos", "Dade", "Cyber-Delia"]
 new_array = [ ]
 index = 0
-while index < numbers.length
-  new_array << numbers[index] + 7
+while index < strings.length.to_i
+  if strings[index].chars.count < 4
+    new_array << strings[index]
+  end
 index = index + 1
 end
 p new_array
-
-# 6. Start with an array of strings and create a new array with only the strings shorter than 4 letters.
 
 # 7. Start with an array of strings and create a new array with each string's first letter only.
 
