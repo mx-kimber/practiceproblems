@@ -71,11 +71,11 @@
 # 8. Make an array of hashes to store the brand and model for 3 different laptops. Then print out the second laptop's model.
 
 laptops = [
-  { },
-  { },
-  { }
+  {brand: " ", model: " "},
+  {brand: " ", model: " "},
+  {brand: " ", model: " "}
 ]
-
+p laptops
 
 # 9. Make a hash to store definitions for 2 different words. Then add a new word and definition and print the hash to see the result.
 
