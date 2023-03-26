@@ -58,16 +58,28 @@ new_array = [ ]
 # new_array = numbers.select { | number | number.even?}
 # p new_array
 
+# index = 0
+# numbers.each do | number |
+#   if number % 2 == 0
+#     new_array << number
+#   end
+# index =+ 1
+# end
+# p new_array
+
+#  5. Start with an array of strings and create a new array with only the strings shorter than 4 letters.
+#     For example, ["a", "man", "a", "plan", "a", "canal", "panama"] becomes ["a", "man", "a", "a"].
+
+strings = ["rub", "baby", "bug", "bumper"]
+new_array = [ ]
 index = 0
-numbers.each do | number |
-  if number % 2 == 0
-    new_array << number
+strings.each do | word |
+  if word.chars.count < 4
+    new_array << word
   end
 index =+ 1
 end
 p new_array
-#  5. Start with an array of strings and create a new array with only the strings shorter than 4 letters.
-#     For example, ["a", "man", "a", "plan", "a", "canal", "panama"] becomes ["a", "man", "a", "a"].
 
 #  6. Start with an array of hashes and create a new array with only the hashes with names shorter than 6 letters (from the :name key).
 #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "chair", price: 100}, {name: "book", price: 4}].
