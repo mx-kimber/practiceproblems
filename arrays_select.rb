@@ -16,21 +16,37 @@
 #  2. Start with an array of strings and create a new array with only the strings that start with the letter "w".
 #     For example, ["winner", "winner", "chicken", "dinner"] becomes ["winner", "winner"].
 
-array = ["wonder", "gold", "women", "lasso"]
-new_array = [ ]
+# array = ["wonder", "gold", "women", "lasso"]
+# new_array = [ ]
 
-#p array[0][0]
+# #p array[0][0]
+# index = 0
+# array.each do
+#   if array[index].chars[0] == "w"
+#     new_array << array[index]
+#   end
+#   index += 1
+# end
+# p new_array
+
+#  3. Start with an array of hashes and create a new array with only the hashes with prices greater than 5 (from the :price key).
+#     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "chair", price: 100}].
+
+items = [
+  {name: "Warlock Pencil Topper", price: 3},
+  {name: "Blank Spell Book", price: 5},
+  {name: "Love Potion #9", price: 300}
+]
+# p items[0][:price]
+new_array = [ ]
 index = 0
-array.each do
-  if array[index].chars[0] == "w"
-    new_array << array[index]
+items.each do
+  if items[index][:price] > 5
+    new_array << items[index]
   end
   index += 1
 end
 p new_array
-
-#  3. Start with an array of hashes and create a new array with only the hashes with prices greater than 5 (from the :price key).
-#     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "chair", price: 100}].
 
 #  4. Start with an array of numbers and create a new array with only the even numbers.
 #     For example, [2, 4, 5, 1, 8, 9, 7] becomes [2, 4, 8].
