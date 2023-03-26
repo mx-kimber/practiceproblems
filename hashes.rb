@@ -1,21 +1,21 @@
 # 1. Make a hash to store a person's first name, last name, and email address. Then print each attribute on separate lines.
 
-person ={"first_name" => "Corben", "last_name" => "Dallas", "email" => " "}
+# person ={"first_name" "Korben", "last_name" "Dallas", "email" " "}
 
-person["email"] << person["first_name"].downcase + person["last_name"].downcase + "@gmail.com"
-p person
+# person["email"] << person["first_name"].downcase + person["last_name"].downcase + "@gmail.com"
+# p person
 
 # 2. Make an array of hashes to store the first name and last name for 3 different people. Then print out the first person's info.
 
-#setting up
+#NOTE TO SELF: no hash rockets with hash keys and use commas after each hash set.
+#Colon goes last with keys and first with pulling keys. Can concatenate ( + ) pulling the hash keys.
+
 people = [
-    { }
-
-    { }
-
-    { }}
-
+  {first_name: "Ruby", last_name: "Rhod"},
+  {first_name: "Vito", last_name: "Cornelius"},
+  {first_name: "Diva", last_name: "Plavaluguna"}
 ]
+p people[0][:first_name] + " " + people[0][:last_name]
 
 # 3. Make a hash to store prices for 3 different menu items. Then add a new menu item and price and print the hash to see the result.
 
@@ -34,4 +34,4 @@ people = [
 # 10. Make a hash to store a shirt's brand, color, and size. Then print each attribute on separate lines.
 
 
-# SOLUTIONS: https://gist.github.com/peterxjang/d257aec07882d78009bd796ed53f81bb
+# SOLUTIONS https//gist.github.com/peterxjang/d257aec07882d78009bd796ed53f81bb
