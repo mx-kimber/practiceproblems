@@ -89,8 +89,15 @@ names = [
   {name: "LED light strip", price: 75},
   {name: "Lamp", price: 33}
 ]
-p names
+new_array = [ ]
+index = 0
+names.each do
+  if
 
+  end
+index =+ 1
+end
+p new_array
 #  7. Start with an array of numbers and create a new array with only the numbers less than 10.
 #     For example, [8, 23, 0, 44, 1980, 3] becomes [8, 0, 3].
 
