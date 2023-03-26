@@ -21,12 +21,17 @@
 
 # 4. Write a function that takes in a number and returns the number times itself. Then run the function and print the result.
 
-def multiply(number)
-  return number * number
-end
-p multiply(5)
+# def multiply(number)
+#   return number * number
+# end
+# p multiply(5)
 
 # 5. Write a function that takes in a string and returns the first letter of the string. Then run the function and print the result.
+
+def first_letter(word)
+  return word[0]
+end
+p first_letter("Lunch")
 
 # 6. Write a function that takes in three strings and returns a string that combines all three strings with spaces in between. Then run the function and print the result.
 
