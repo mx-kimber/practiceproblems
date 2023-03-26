@@ -28,11 +28,11 @@
 
 # 4. Make a hash to store a book's title, author, number of pages, and language. Then print each attribute on separate lines.
 
-good_reads = {:title => "Entepray lI Batlh", :author => "Worf", :pages => 375, :language => "Klingon"}
+# good_reads = {:title => "Entepray lI Batlh", :author => "Worf", :pages => 375, :language => "Klingon"}
 
-good_reads.each do | key , info |
-  p key && info
-end
+# good_reads.each do | key , info |
+#   p key && info
+# end
 
 # p good_reads[:title]
 # p good_reads[:author]
@@ -41,6 +41,12 @@ end
 
 
 # 5. Make an array of hashes to store the title and author for 3 different books. Then print out the third book's author.
+
+books = [
+  { },
+  { },
+  { }
+]
 
 # 6. Make a hash to store 3 different states and their captitals. Then add a new state and capital and print the hash to see the result.
 
