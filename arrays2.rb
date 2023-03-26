@@ -1,16 +1,28 @@
 # 1. Start with an array of numbers and create a new array with each number times 3.
 
-numbers = [4, 7, 22, 94, 3]
-new_array = [ ]
+# numbers = [4, 7, 22, 94, 3]
+# new_array = [ ]
 
+# index = 0
+# while index < numbers.length
+#   new_array << numbers[index] * 3
+# index = index + 1
+# end
+# p new_array
+
+# 2. Start with an array of strings and create a new array with only the strings that start with the letter "w".
+
+strings = ["tiny", "wonder", "secret", "key", "wet"]
+new_array = [ ]
 index = 0
-while index < numbers.length
-  new_array << numbers[index] * 3
+#p strings[0].chars
+while index < strings.length
+  if strings[index].chars[0] == "w"
+    new_array << strings[index]
+  end
 index = index + 1
 end
 p new_array
-
-# 2. Start with an array of strings and create a new array with only the strings that start with the letter "w".
 
 # 3. Start with an array of strings and create a new array with each string upcased.
 
