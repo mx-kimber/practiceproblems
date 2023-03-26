@@ -20,13 +20,22 @@
 # 3. Make a hash to store prices for 3 different menu items. Then add a new menu item and price and print the hash to see the result.
 
 
-#NOTE TO SELF - when adding keys to an hash, use [:key] = value
-menu_items = {:fries => 1.50, :burger => 14, :salad => 8}
-menu_items[:shakes] = 11
-p menu_items
+# #NOTE TO SELF - when adding keys to an hash, use [:key] = value
+# menu_items = {:fries => 1.50, :burger => 14, :salad => 8}
+# menu_items[:shakes] = 11
+# p menu_items
 
 
 # 4. Make a hash to store a book's title, author, number of pages, and language. Then print each attribute on separate lines.
+
+good_reads = {:title => "Entepray lI Batlh", :author => "Worf", :pages => 375, :language => "Klingon"}
+
+good_reads.each do | book, info |
+  p book && info
+ p good_reads
+# p good_reads[:title]
+end
+
 
 # 5. Make an array of hashes to store the title and author for 3 different books. Then print out the third book's author.
 
