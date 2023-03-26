@@ -50,10 +50,20 @@
 #  4. Start with an array of numbers and create a new array with only the even numbers.
 #     For example, [2, 4, 5, 1, 8, 9, 7] becomes [2, 4, 8].
 
-numbers = [4, 5, 1, 8, 32]
+numbers = [4, 5, 1, 9, 32]
 new_array = [ ]
-numbers.each do
 
+# one way to do it:
+
+# new_array = numbers.select { | number | number.even?}
+# p new_array
+
+index = 0
+numbers.each do | number |
+  if number % 2 == 0
+    new_array << number
+  end
+index =+ 1
 end
 p new_array
 #  5. Start with an array of strings and create a new array with only the strings shorter than 4 letters.
