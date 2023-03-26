@@ -104,21 +104,27 @@
 # 9.  Start with an array of hashes and create a new array of number values from each hash's :age key times 2.
 #     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [54, 32].
 
-array = [
-  {name: "King Tut", age: 17},
-  {name: "Aye", age: 43}
-]
-new_array = [ ]
-index = 0
-array.each do
-  new_array << array[index][:age] * 2
-index += 1
-end
+# array = [
+#   {name: "King Tut", age: 17},
+#   {name: "Aye", age: 43}
+# ]
+# new_array = [ ]
+# index = 0
+# array.each do
+#   new_array << array[index][:age] * 2
+# index += 1
+# end
 
-p new_array
+# p new_array
 
 # 10. Start with an array of numbers and create a new array with each number converted into a string.
 #     For example, [1, 2, 3] becomes ["1", "2", "3"].
+numbers =  [5, 6, 1, 9, 44]
+new_array = [ ]
+numbers.each do |number|
+new_array << number.to_s
+end
+p new_array
 
 
 # SOLUTIONS (using while loop): https://gist.github.com/peterxjang/b9ac4390aad2301a2238efc95c904f3d
