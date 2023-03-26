@@ -12,16 +12,28 @@
 #  2. Start with an array of strings and create a new array with each string upcased.
 #     For example, ["hello", "goodbye"] becomes ["HELLO", "GOODBYE"].
 
-strings = ["howdy", "partner"]
-cap_strings = [ ]
+# strings = ["howdy", "partner"]
+# cap_strings = [ ]
 
-strings.each do |string|
-  cap_strings << string.upcase
-end
-p cap_strings
+# strings.each do |string|
+#   cap_strings << string.upcase
+# end
+# p cap_strings
 
 #  3. Start with an array of hashes and create a new array of string values from each hash's :name key.
 #     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes ["Alice", "Blane"].
+
+new_array = [ ]
+hashes = [
+  {name: "Mo'at", age: 75},
+  {name: "Tsu'tey", age: 28}
+]
+index = 0
+while index < hashes.length
+  new_array << hashes[index][:name]
+index = index + 1
+end
+p new_array
 
 #  4. Start with an array of numbers and create a new array with each number plus 7.
 #     For example, [1, 2, 3] becomes [8, 9, 10].
