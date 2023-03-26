@@ -84,18 +84,27 @@
 
 # 8. Start with an array of numbers and create a new array with only the numbers less than 10.
 
-numbers = [4, 6, 2, 11, 55, 3, 12]
+# numbers = [4, 6, 2, 11, 55, 3, 12]
+# new_array = [ ]
+# index = 0
+# while index < numbers.length
+#   if numbers[index] < 10
+#     new_array << numbers[index]
+#   end
+# index = index + 1
+# end
+# p new_array
+
+# 9. Start with an array of numbers and create a new array with each number divided by 2.
+
+numbers = [3, 5, 1, 8, 12]
 new_array = [ ]
 index = 0
 while index < numbers.length
-  if numbers[index] < 10
-    new_array << numbers[index]
-  end
-index = index + 1
+  new_array << numbers[index].to_f / 2
+  index = index + 1
 end
 p new_array
-
-# 9. Start with an array of numbers and create a new array with each number divided by 2.
 
 # 10. Start with an array of strings and create a new array with only the strings that don't start with the letter "b".
 
