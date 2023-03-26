@@ -10,14 +10,21 @@
 #NOTE TO SELF: no hash rockets with hash keys and use commas after each hash set.
 #Colon goes last with keys and first with pulling keys. Can concatenate ( + ) pulling the hash keys.
 
-people = [
-  {first_name: "Ruby", last_name: "Rhod"},
-  {first_name: "Vito", last_name: "Cornelius"},
-  {first_name: "Diva", last_name: "Plavaluguna"}
-]
-p people[0][:first_name] + " " + people[0][:last_name]
+# people = [
+#   {first_name: "Ruby", last_name: "Rhod"},
+#   {first_name: "Vito", last_name: "Cornelius"},
+#   {first_name: "Diva", last_name: "Plavaluguna"}
+# ]
+# p people[0][:first_name] + " " + people[0][:last_name]
 
 # 3. Make a hash to store prices for 3 different menu items. Then add a new menu item and price and print the hash to see the result.
+
+
+#NOTE TO SELF - when adding keys to an hash, use [:key] = value
+menu_items = {:fries => 1.50, :burger => 14, :salad => 8}
+menu_items[:shakes] = 11
+p menu_items
+
 
 # 4. Make a hash to store a book's title, author, number of pages, and language. Then print each attribute on separate lines.
 
