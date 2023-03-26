@@ -19,15 +19,15 @@
 array = ["wonder", "gold", "women", "lasso"]
 new_array = [ ]
 
-p array[0][0]
+#p array[0][0]
 index = 0
-# array.each do
-#   if array[index].chars(0) == "w"
-#     new_array << array[index]
-#   end
-#   index += 1
-# end
-# p new_array
+array.each do
+  if array[index].chars[0] == "w"
+    new_array << array[index]
+  end
+  index += 1
+end
+p new_array
 
 #  3. Start with an array of hashes and create a new array with only the hashes with prices greater than 5 (from the :price key).
 #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "chair", price: 100}].
