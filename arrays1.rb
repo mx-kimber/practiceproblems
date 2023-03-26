@@ -65,6 +65,6 @@
 
 countries = ["Denmark", "Japan", "Australia"]
 countries << "United Kingdom"
-p countries
+p
 
 # SOLUTIONS: https://gist.github.com/peterxjang/7095a2b19e1da2cc18d4a0dcd66cb8f1

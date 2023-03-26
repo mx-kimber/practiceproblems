@@ -4,6 +4,15 @@
 
 # 3. Start with an array of strings and create a new array with each string upcased.
 
+strings = ["blue", "green", "yellow"]
+new_array = [ ]
+index = 0
+while index < strings.length
+  new_array << strings[index].upcase
+  index = index + 1
+end
+p new_array
+
 # 4. Start with an array of numbers and create a new array with only the numbers greater than 100.
 
 # 5. Start with an array of numbers and create a new array with each number plus 7
