@@ -12,17 +12,17 @@
 
 # 2. Start with an array of strings and create a new array with only the strings that start with the letter "w".
 
-strings = ["tiny", "wonder", "secret", "key", "wet"]
-new_array = [ ]
-index = 0
-#p strings[0].chars
-while index < strings.length
-  if strings[index].chars[0] == "w"
-    new_array << strings[index]
-  end
-index = index + 1
-end
-p new_array
+# strings = ["tiny", "wonder", "secret", "key", "wet"]
+# new_array = [ ]
+# index = 0
+# #p strings[0].chars
+# while index < strings.length
+#   if strings[index].chars[0] == "w"
+#     new_array << strings[index]
+#   end
+# index = index + 1
+# end
+# p new_array
 
 # 3. Start with an array of strings and create a new array with each string upcased.
 
@@ -36,6 +36,17 @@ p new_array
 # p new_array
 
 # 4. Start with an array of numbers and create a new array with only the numbers greater than 100.
+
+numbers = [3, 101, 1, 10, 55, 130, 544]
+new_array = [ ]
+index = 0
+while index < numbers.length
+  if numbers[index] > 100
+    new_array << numbers[index]
+  end
+index = index + 1
+end
+p new_array
 
 # 5. Start with an array of numbers and create a new array with each number plus 7
 
