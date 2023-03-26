@@ -37,18 +37,27 @@
 
 # 4. Start with an array of numbers and create a new array with only the numbers greater than 100.
 
-numbers = [3, 101, 1, 10, 55, 130, 544]
+# numbers = [3, 101, 1, 10, 55, 130, 544]
+# new_array = [ ]
+# index = 0
+# while index < numbers.length
+#   if numbers[index] > 100
+#     new_array << numbers[index]
+#   end
+# index = index + 1
+# end
+# p new_array
+
+# 5. Start with an array of numbers and create a new array with each number plus 7
+
+numbers = [3, 5, 7, 4]
 new_array = [ ]
 index = 0
 while index < numbers.length
-  if numbers[index] > 100
-    new_array << numbers[index]
-  end
+  new_array << numbers[index] + 7
 index = index + 1
 end
 p new_array
-
-# 5. Start with an array of numbers and create a new array with each number plus 7
 
 # 6. Start with an array of strings and create a new array with only the strings shorter than 4 letters.
 
