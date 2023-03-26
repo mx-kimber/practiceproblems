@@ -73,16 +73,27 @@
 # p new_array
 
 # 7. Start with an array of strings and create a new array with each string's first letter only.
-strings = ["Zero Cool", "Dade", "Cyber-Delia"]
+# strings = ["Zero Cool", "Dade", "Cyber-Delia"]
+# new_array = [ ]
+# index = 0
+# while index < strings.length.to_i
+#   new_array << strings[index].chars[0]
+# index = index + 1
+# end
+# p new_array
+
+# 8. Start with an array of numbers and create a new array with only the numbers less than 10.
+
+numbers = [4, 6, 2, 11, 55, 3, 12]
 new_array = [ ]
 index = 0
-while index < strings.length.to_i
-  new_array << strings[index].chars[0]
+while index < numbers.length
+  if numbers[index] < 10
+    new_array << numbers[index]
+  end
 index = index + 1
 end
 p new_array
-
-# 8. Start with an array of numbers and create a new array with only the numbers less than 10.
 
 # 9. Start with an array of numbers and create a new array with each number divided by 2.
 
