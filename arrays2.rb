@@ -61,18 +61,26 @@
 
 # 6. Start with an array of strings and create a new array with only the strings shorter than 4 letters.
 
-strings = ["sos", "Dade", "Cyber-Delia"]
+# strings = ["sos", "Dade", "Cyber-Delia"]
+# new_array = [ ]
+# index = 0
+# while index < strings.length.to_i
+#   if strings[index].chars.count < 4
+#     new_array << strings[index]
+#   end
+# index = index + 1
+# end
+# p new_array
+
+# 7. Start with an array of strings and create a new array with each string's first letter only.
+strings = ["Zero Cool", "Dade", "Cyber-Delia"]
 new_array = [ ]
 index = 0
 while index < strings.length.to_i
-  if strings[index].chars.count < 4
-    new_array << strings[index]
-  end
+  new_array << strings[index].chars[0]
 index = index + 1
 end
 p new_array
-
-# 7. Start with an array of strings and create a new array with each string's first letter only.
 
 # 8. Start with an array of numbers and create a new array with only the numbers less than 10.
 
