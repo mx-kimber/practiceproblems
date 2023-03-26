@@ -97,16 +97,27 @@
 
 # 9. Start with an array of numbers and create a new array with each number divided by 2.
 
-numbers = [3, 5, 1, 8, 12]
-new_array = [ ]
-index = 0
-while index < numbers.length
-  new_array << numbers[index].to_f / 2
-  index = index + 1
-end
-p new_array
+# numbers = [3, 5, 1, 8, 12]
+# new_array = [ ]
+# index = 0
+# while index < numbers.length
+#   new_array << numbers[index].to_f / 2
+#   index = index + 1
+# end
+# p new_array
 
 # 10. Start with an array of strings and create a new array with only the strings that don't start with the letter "b".
 
+strings =["Burn", "Phantom", "Crash", "Razor", "Blade", "Serial", "Joey"]
+new_array = [ ]
+index = 0
+while index < strings.length
+  if strings[index].chars[0] != "B"
+    new_array << strings[index]
+  end
+index = index + 1
+end
+
+p new_array
 
 # SOLUTIONS: https://gist.github.com/peterxjang/9aec2e5ce455d78eae730ba82ad023d8
