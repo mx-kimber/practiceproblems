@@ -30,9 +30,14 @@
 
 good_reads = {:title => "Entepray lI Batlh", :author => "Worf", :pages => 375, :language => "Klingon"}
 
-good_reads.each do | book, info |
-  p book && info
+good_reads.each do | key , info |
+  p key && info
 end
+
+# p good_reads[:title]
+# p good_reads[:author]
+# p good_reads[:pages]
+# p good_reads[:language]
 
 
 # 5. Make an array of hashes to store the title and author for 3 different books. Then print out the third book's author.
@@ -48,4 +53,4 @@ end
 # 10. Make a hash to store a shirt's brand, color, and size. Then print each attribute on separate lines.
 
 
-# SOLUTIONS https//gist.github.com/peterxjang/d257aec07882d78009bd796ed53f81bb
+# SOLUTIONS https://gist.github.com/peterxjang/d257aec07882d78009bd796ed53f81bb
