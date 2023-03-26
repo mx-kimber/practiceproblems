@@ -1,17 +1,27 @@
 # 1. Start with an array of numbers and create a new array with each number times 3.
 
+numbers = [4, 7, 22, 94, 3]
+new_array = [ ]
+
+index = 0
+while index < numbers.length
+  new_array << numbers[index] * 3
+index = index + 1
+end
+p new_array
+
 # 2. Start with an array of strings and create a new array with only the strings that start with the letter "w".
 
 # 3. Start with an array of strings and create a new array with each string upcased.
 
-strings = ["blue", "green", "yellow"]
-new_array = [ ]
-index = 0
-while index < strings.length
-  new_array << strings[index].upcase
-  index = index + 1
-end
-p new_array
+# strings = ["blue", "green", "yellow"]
+# new_array = [ ]
+# index = 0
+# while index < strings.length
+#   new_array << strings[index].upcase
+#   index = index + 1
+# end
+# p new_array
 
 # 4. Start with an array of numbers and create a new array with only the numbers greater than 100.
 
