@@ -62,12 +62,16 @@
 
 # 9. Write a function that takes in 3 numbers and returns the average (the sum divided by 3.0). Then run the function and print the result.
 
-def average(number1, number2, number3)
-  return (number1 + number2 + number3).to_f / 3
-end
-p average(5, 5, 8)
+# def average(number1, number2, number3)
+#   return (number1 + number2 + number3).to_f / 3
+# end
+# p average(5, 5, 8)
 
 # 10. Write a function that takes in a number and returns the number times 10 plus 30. Then run the function and print the result.
 
+def calculation(number)
+  return number * 10 + 30
+end
+p calculation(10)
 
 # SOLUTIONS: https://gist.github.com/peterxjang/6a26d3c698c651dd6e9ccb168d32648c
