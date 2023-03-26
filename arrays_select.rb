@@ -85,10 +85,11 @@
 #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "chair", price: 100}, {name: "book", price: 4}].
 
 names = [
-  { },
-  { },
-  { }
+  {name: "Fidget Popper", price: 5},
+  {name: "LED light strip", price: 75},
+  {name: "Lamp", price: 33}
 ]
+p names
 
 #  7. Start with an array of numbers and create a new array with only the numbers less than 10.
 #     For example, [8, 23, 0, 44, 1980, 3] becomes [8, 0, 3].
