@@ -32,8 +32,6 @@ good_reads = {:title => "Entepray lI Batlh", :author => "Worf", :pages => 375, :
 
 good_reads.each do | book, info |
   p book && info
- p good_reads
-# p good_reads[:title]
 end
 
 
