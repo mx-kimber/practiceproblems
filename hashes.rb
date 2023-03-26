@@ -62,13 +62,20 @@
 
 # 7. Make a hash to store a laptop's brand, model, and year. Then print each attribute on separate lines.
 
-laptop = {brand: "Macintosh", model: "MacBook Air", year: "2016"}
+# laptop = {brand: "Macintosh", model: "MacBook Air", year: "2016"}
 
-laptop.each do |key, info|
-p key && info
-end
+# laptop.each do |key, info|
+# p key && info
+# end
 
 # 8. Make an array of hashes to store the brand and model for 3 different laptops. Then print out the second laptop's model.
+
+laptops = [
+  { },
+  { },
+  { }
+]
+
 
 # 9. Make a hash to store definitions for 2 different words. Then add a new word and definition and print the hash to see the result.
 
