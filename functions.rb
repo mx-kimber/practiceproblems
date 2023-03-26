@@ -48,12 +48,17 @@
 
 # 7. Write a function that takes in a number and returns the number as a string. Then run the function and print the result.
 
-def make_string(string)
-  return string.to_s
-end
-p make_string(3)
+# def make_string(string)
+#   return string.to_s
+# end
+# p make_string(3)
 
 # 8. Write a function that takes in a string and returns the string repeated 5 times. Then run the function and print the result.
+
+def repeated(string)
+  return string * 5
+end
+p repeated("oogabooga")
 
 # 9. Write a function that takes in 3 numbers and returns the average (the sum divided by 3.0). Then run the function and print the result.
 
