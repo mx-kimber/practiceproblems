@@ -54,14 +54,17 @@
 
 # 9. Create an array to store 2 numbers. Then print out each number on separate lines with a while loop.
 
-numbers = [3, 85]
-index = 0
-while index < numbers.length
-  p numbers[index]
-  index = index + 1
-end
+# numbers = [3, 85]
+# index = 0
+# while index < numbers.length
+#   p numbers[index]
+#   index = index + 1
+# end
 
 # 10. Create an array to store names of 3 different countries. Then add one more country and print the array one line.
 
+countries = ["Denmark", "Japan", "Australia"]
+countries << "United Kingdom"
+p countries
 
 # SOLUTIONS: https://gist.github.com/peterxjang/7095a2b19e1da2cc18d4a0dcd66cb8f1
