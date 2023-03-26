@@ -70,15 +70,19 @@
 
 # 8. Make an array of hashes to store the brand and model for 3 different laptops. Then print out the second laptop's model.
 
-laptops = [
-  {brand: "Samsung", model: "Galaxy Book Ultra"},
-  {brand: "Asus", model: "Zenbook Pro"},
-  {brand: "Asus", model: "Zenbook Duo"}
-]
-p laptops[1][:model]
+# laptops = [
+#   {brand: "Samsung", model: "Galaxy Book Ultra"},
+#   {brand: "Asus", model: "Zenbook Pro"},
+#   {brand: "Asus", model: "Zenbook Duo"}
+# ]
+# p laptops[1][:model]
 
 # 9. Make a hash to store definitions for 2 different words. Then add a new word and definition and print the hash to see the result.
 
+definitions = {lollygag: "spend time aimlessly; idle.", conundrum: "a confusing and difficult problem or question."}
+definitions[:complexity] = "the state or quality of being intricate or complicated."
+
+p definitions
 # 10. Make a hash to store a shirt's brand, color, and size. Then print each attribute on separate lines.
 
 
