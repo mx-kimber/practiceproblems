@@ -79,11 +79,18 @@
 
 # 9. Make a hash to store definitions for 2 different words. Then add a new word and definition and print the hash to see the result.
 
-definitions = {lollygag: "spend time aimlessly; idle.", conundrum: "a confusing and difficult problem or question."}
-definitions[:complexity] = "the state or quality of being intricate or complicated."
+# definitions = {lollygag: "spend time aimlessly; idle.", conundrum: "a confusing and difficult problem or question."}
+# definitions[:complexity] = "the state or quality of being intricate or complicated."
 
-p definitions
+# p definitions
+
 # 10. Make a hash to store a shirt's brand, color, and size. Then print each attribute on separate lines.
+
+shirt = {brand: "Hanes", color: "green", size: "medium"}
+
+shirt.each do |key, value|
+  p value
+end
 
 
 # SOLUTIONS https://gist.github.com/peterxjang/d257aec07882d78009bd796ed53f81bb
