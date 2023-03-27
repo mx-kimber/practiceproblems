@@ -84,26 +84,36 @@
 #  6. Start with an array of hashes and create a new array with only the hashes with names shorter than 6 letters (from the :name key).
 #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "chair", price: 100}, {name: "book", price: 4}].
 
-names = [
-  {name: "Fidget Popper", price: 5},
-  {name: "LED light strip", price: 75},
-  {name: "Lamp", price: 33}
-]
-new_array = [ ]
-index = 0
-# p names[0][:name]
-names.each do
-  name = names[index][:name]
-  if name.length < 6
-  new_array <<  name
-  end
-index += 1
-end
-p new_array
+# names = [
+#   {name: "Fidget Popper", price: 5},
+#   {name: "LED light strip", price: 75},
+#   {name: "Lamp", price: 33}
+# ]
+# new_array = [ ]
+# index = 0
+# # p names[0][:name]
+# names.each do
+#   name = names[index][:name]
+#   if name.length < 6
+#   new_array <<  name
+#   end
+# index += 1   # I don't think I need the indexing
+# end
+# p new_array
 
 
 #  7. Start with an array of numbers and create a new array with only the numbers less than 10.
 #     For example, [8, 23, 0, 44, 1980, 3] becomes [8, 0, 3].
+
+numbers = [3, 11, 10, 6]
+new_numbers = [ ]
+
+numbers.each do | number |
+  if number < 10
+    new_numbers << number
+  end
+end
+p new_numbers
 
 #  8. Start with an array of strings and create a new array with only the strings that don't start with the letter "b".
 #     For example, ["big", "little", "good", "bad"] becomes ["little", "good"].
