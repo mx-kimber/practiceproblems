@@ -91,13 +91,17 @@ names = [
 ]
 new_array = [ ]
 index = 0
+# p names[0][:name]
 names.each do
-  if
-
+  name = names[index][:name]
+  if name.length < 6
+  new_array <<  name
   end
-index =+ 1
+index += 1
 end
 p new_array
+
+
 #  7. Start with an array of numbers and create a new array with only the numbers less than 10.
 #     For example, [8, 23, 0, 44, 1980, 3] becomes [8, 0, 3].
 
