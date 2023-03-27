@@ -132,30 +132,41 @@
 #  9. Start with an array of hashes and create a new array with only the hashes with prices less than 10 (from the :price key).
 #     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "pencil", price: 1}, {name: "book", price: 4}].
 
-no_poems = [
-  {name: "Towel", price: 25},
-  {name: "Hitchhiker Ring", price: 5},
-  {name: "Guide to the Galaxy", price: 0}
-]
-saved = [ ]
-#p no_poems
-index = 0
-no_poems.each do
-  price = no_poems[index][:price]
-  if price < 10
-    saved << price
-  end
-index += 1
-end
-p saved
-if saved.length < no_poems.length
-  puts "Sorry, you'll need everything to live."
-end
+# no_poems = [
+#   {name: "Towel", price: 25},
+#   {name: "Hitchhiker Ring", price: 5},
+#   {name: "Guide to the Galaxy", price: 0}
+# ]
+# saved = [ ]
+# #p no_poems
+# index = 0
+# no_poems.each do
+#   price = no_poems[index][:price]
+#   if price < 10
+#     saved << price
+#   end
+# index += 1
+# end
+# p saved
+# if saved.length < no_poems.length
+#   puts "Sorry, you'll need everything to live."
+# end
 
 
 # 10. Start with an array of numbers and create a new array with only the odd numbers.
 #     For example, [2, 4, 5, 1, 8, 9, 7] becomes [5, 1, 9, 7].
 
+numbers = [2, 3, 7, 4, 6, 9]
+odds = [ ]
+
+index = 0
+numbers.each do
+  if numbers[index] % 2 == 1
+    odds << numbers[index]
+  end
+index += 1
+end
+p odds
 
 # SOLUTIONS (using while loop): https://gist.github.com/peterxjang/7de16ed43ea506e98df3fa15074b84f8
 # SOLUTIONS (using .each shortcut): https://gist.github.com/peterxjang/a702894841c7018ed8c127b647ae21f8
