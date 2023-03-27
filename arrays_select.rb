@@ -137,7 +137,22 @@ no_poems = [
   {name: "Hitchhiker Ring", price: 5},
   {name: "Guide to the Galaxy", price: 0}
 ]
-p no_poems
+saved = [ ]
+#p no_poems
+index = 0
+no_poems.each do
+  price = no_poems[index][:price]
+  if price < 10
+    saved << price
+  end
+index += 1
+end
+p saved
+if saved.length < no_poems.length
+  puts "Sorry, you'll need everything to live."
+end
+
+
 # 10. Start with an array of numbers and create a new array with only the odd numbers.
 #     For example, [2, 4, 5, 1, 8, 9, 7] becomes [5, 1, 9, 7].
 
