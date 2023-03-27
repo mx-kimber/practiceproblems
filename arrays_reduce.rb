@@ -2,7 +2,11 @@
 #     For example, [5, 10, 8, 3] becomes 26.
 
 numbers = [3, 7, 1, 9]
-p numbers
+sum = 0
+numbers.each do | add |
+sum += add
+end
+p sum
 
 #  2. Start with an array of strings and combine them all into a single string.
 #     For example, ["volleyball", "basketball", "badminton"] becomes "volleyballbasketballbadminton".
